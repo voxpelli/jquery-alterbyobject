@@ -39,6 +39,7 @@ That will add the class "removed" to all elements in ".list" that matches ".user
 * **has** - a check to make sure that only elements containing the right stuff is modified
 * **addClass** - a class to add
 * **removeClass** - a class to remove
+* **text** - a text to change the elements text to
 * **content** - HTML content to replace the elements with
 * **attr** - an object with attributes that should be changed
 * **targets** - an array of additional targets within this target that should be modified

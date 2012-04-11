@@ -20,6 +20,9 @@
       if (data.content) {
         $target.replaceWith(data.content);
       }
+      if (data.text) {
+        $target.text(data.text);
+      }
       if (data.attr) {
         $target.attr(data.attr);
       }
